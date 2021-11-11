@@ -104,7 +104,7 @@ import torch.nn.functional as F
 from timm.data import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
 from timm.models.layers import SelectAdaptivePool2d, BlurPool2d, Linear, hard_sigmoid, DropBlock2d
 from timm.models.efficientnet_blocks import ConvBnAct, make_divisible
-from .layers import AttentionPool2d, SqueezeExcite
+# from .layers import AttentionPool2d, SqueezeExcite
 from timm.models.helpers import build_model_with_cfg
 from timm.models.registry import register_model
 
